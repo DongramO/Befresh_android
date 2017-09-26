@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">BeFresh</string>
+    <string name="title_activity_main">MainActivity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="action_filter">Filter</string>
+    <string name="action_search">Search</string>
+
+    <string name="btn_splash_login">Go to Login</string>
+
+    <string name="edit_search_hint">키워드로 검색 가능</string>
+    <string name="search_list_top">최근 검색</string>
+
+
+    <string name="show_all_community">전체보기 > </string>
+
+    <string name="mypage_left_pager">저장 목록</string>
+    <string name="mypage_right_pager">나의 쿠킹박스</string>
+
+    <string name="main_left_pager">웰빙 레시피</string>
+    <string name="main_right_pager">채식 레시피</string>
+
+    <string name="nav_comm">커뮤니티</string>
+    <string name="nav_user_after">후기 작성</string>
+    <string name="nav_user_save_list">저장 목록</string>
+    <string name="nav_user_member">프레쉬 피플</string>
+    <string name="nav_user_settings">계정 설정</string>
+    <string name="title_activity_login_page">LoginPage</string>
+    <string name="facebook_app_id">469881626708748</string>
+
+    <string-array name="nav_drawer_title">
+        <item>프레시</item>
+        <item>프레시피플</item>
+        <item>커뮤니티</item>
+        <item>마이페이지</item>
+    </string-array>
+
+
+</resources>

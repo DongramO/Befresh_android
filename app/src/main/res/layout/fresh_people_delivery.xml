@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#eeeeee"
+    android:paddingBottom="10dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/border_menu">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="8">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="110dp"
+            android:scaleType="fitXY"
+            android:id="@+id/image"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_weight="6">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="18.8dp"
+            android:layout_marginLeft="17.5dp"
+            android:textSize="9sp"
+            android:textColor="#aaaaaa"
+            android:text="배송일"
+            android:id="@+id/date"/>
+
+        <TextView
+            android:layout_width="107.5dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="17.2dp"
+            android:textSize="14sp"
+            android:layout_marginTop="5.2dp"
+            android:textColor="#393939"
+            android:textStyle="bold"
+            android:text="구운 채소 커리"
+            android:layout_below="@+id/date"
+            android:id="@+id/title"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginLeft="17.5dp"
+            android:paddingBottom="10dp"
+            android:orientation="horizontal">
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="1.5dp"
+                android:src="@drawable/tag"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#aaaaaa"
+                android:layout_marginLeft="5.5dp"
+                android:textSize="9dp"
+                android:text="달걀프리 견과류"
+                android:paddingRight="15dp"
+                android:id="@+id/hashtag"/>
+        </LinearLayout>
+    </RelativeLayout>
+    </LinearLayout>
+</LinearLayout>

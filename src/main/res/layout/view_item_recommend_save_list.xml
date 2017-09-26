@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/rl"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="5dp">
+
+    <ImageView
+        android:id="@+id/img_slrecommend"
+        android:layout_width="match_parent"
+        android:layout_height="167dp"
+        android:scaleType="fitXY" />
+
+    <CheckBox
+        android:id="@+id/like_slrecommend"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/img_slrecommend"
+        android:layout_alignRight="@id/img_slrecommend"
+        android:layout_marginBottom="7.5dp"
+        android:layout_marginRight="10.3dp"
+        android:button="@drawable/heart_check_restaurant" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/img_slrecommend"
+        android:id="@+id/ll">
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="35.5dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="23dp"
+            android:layout_weight="3">
+
+            <ImageView
+                android:id="@+id/loc_slrecommend"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                tools:background="@drawable/restaurant_leetaewonicon" />
+
+            <TextView
+                android:id="@+id/name_slrecommend"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/loc_slrecommend"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="7dp"
+                android:textAlignment="center"
+                android:textColor="@color/colormain"
+                android:textSize="7pt"
+                android:textStyle="bold" />
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/content_slrecommend"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="28dp"
+            android:layout_marginLeft="25.5dp"
+            android:layout_marginRight="21dp"
+            android:layout_marginTop="24dp"
+            android:layout_weight="1"
+            android:letterSpacing="0.05"
+            android:lineSpacingExtra="3dp"
+            android:textColor="#333333"
+            android:textSize="11sp" />
+    </LinearLayout>
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="3dp"
+        android:background="@drawable/bottom_shadow"
+        android:layout_below="@+id/ll"
+        android:layout_marginBottom="3dp"/>
+</RelativeLayout>
+

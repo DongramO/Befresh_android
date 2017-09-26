@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- 체크박스 해제상태 -->
+    <item android:drawable="@drawable/filter" android:state_checked="false">
+
+    </item>
+    <!-- 체크박스 선택상태 -->
+    <item android:drawable="@drawable/recipe_filtericon_green" android:state_checked="true" />
+    <!-- default state -->
+</selector>
